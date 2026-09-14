@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-height: 100vh;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    animation: FUTA 20s infinite;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    border-left: 0px solid ;
+    border-right: 0px solid ;
+    margin: 0rem auto;
+    padding: 0rem;
+    max-width: 400px;
+    max-height: 100vh;
+}
+
+main {
+   background-color: whitesmoke;
+}
+
+.to {
+    animation: to 5s infinite;
+}
+
+input {
+    width: 80%;
+    height: 35px;
+    padding: 8px 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-left: 2px solid #43a047;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+input:focus {
+    border-color: #ddd;
+    border-left: 3px solid #43a047;
+    box-shadow: 0 0 3px rgba(67, 160, 71, 0.3);
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:last-child {
+    font-size: medium;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.S {
+   font-size: larger;
+}
+
+.name {
+    font-size: 1rem;
+}
+
+.p {
+    font-size: medium;
+}
+
+.login {
+    background-color: #337ab7;
+    color: whitesmoke;
+    border: 2px solid #337ab7;
+    width: 80%;
+    height: 35px;
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+
+footer {
+    font-size: small;
+    color: #337ab7;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+}
+
+@keyframes FUTA {
+    0%, 20%{
+        background-image: url(FUTA1\ \(1\).jpg);
+    }
+
+    25%, 45% {
+        background-image: url("FUTA1\ \(2\).jpg");
+    }
+
+    50%, 70% {
+        background-image: url("FUTA1\ \(3\).jpg");
+    }
+
+    75%, 95% {
+        background-image: url("FUTA\ 2.jpg");
+    }
+
+    100% {
+        background-image: url("FUTA\ 3.jpg");
+    }
+}
+
+@keyframes to {
+    0% {
+        color: blue;
+    }
+
+    25% {
+       color: purple;
+    }
+
+    50% {
+         color: orange;
+    }
+
+    75% {
+        color: yellow;
+    }
+
+    100% {
+        color: green;
+    }
+}
